@@ -9,8 +9,11 @@ baked from that reaction. Nobody hand-keys the creature; the behavior is emergen
 same engine behind the [Unique Host / CCM](https://doi.org/10.5281/zenodo.20648800) project, stripped down
 to just its somatic (body-state) layer.
 
-![Jellyfish AI demo](docs/demo.gif)
-*Jellyfish, turtle and fish reacting to each other and to tagged objects in Blender.*
+<p align="center">
+  <img src="docs/demo.gif" alt="Jellyfish AI demo" width="100%">
+</p>
+
+<p align="center"><em>Jellyfish, turtle and fish reacting to each other and to tagged objects in Blender.</em></p>
 
 The point of this experiment is to show how the CCM engine can be used to control and move a body in 3D
 space: the engine makes the decisions, and the creature's body simply follows them.
@@ -18,7 +21,7 @@ space: the engine makes the decisions, and the creature's body simply follows th
 It is **not** physics and **not** a pre-made animation cycle: every tick (a fixed 0.2 real-world seconds,
 independent of scene FPS) the engine reads what's nearby, runs it through the Cognitive Coherence Model's
 chemical/vitality systems, and turns the winning internal state into a weighted blend of movement channels
-(heading, speed, body wave, pulse, drift...). Two creatures never play the same animation twice unless the
+(heading, speed, body wave, pulse, drift, etc...). Two creatures never play the same animation twice unless the
 scene around them is identical.
 
 ## ✨ Features
