@@ -1,4 +1,4 @@
-# 🪼 Jellyfish AI
+# Jellyfish AI
 
 > **Work in progress — v0.2.** Early experimental release; tested inside Blender on Windows, expect rough edges.
 
